@@ -44,7 +44,7 @@ WHERE continent = 'South America';
 ```
 
 ###  Question 5: France, Germany, Italy
-**Task: Show the name and population for France, Germany, Italy**
+**Task: Show the name and population for France, Germany, Italy.**
 
 ```sql
 SELECT name, population 
@@ -53,7 +53,7 @@ WHERE name IN ('France', 'Germany', 'Italy');
 ```
 
 ###  Question 6: United
-**Task: Show the countries which have a name that includes the word 'United'**
+**Task: Show the countries which have a name that includes the word 'United'.**
 
 ```sql
 SELECT name
@@ -130,7 +130,7 @@ name <> capital;
 ```
 
 ###  Question 13: All the vowels
-**Task: Equatorial Guinea and Dominican Republic have all of the vowels (a e i o u) in the name. They don't count because they have more than one word in the name. Find the country that has all the vowels and no spaces in its name. - You can use the phrase name NOT LIKE '%a%' to exclude characters from your results. - The query shown misses countries like Bahamas and Belarus because they contain at least one 'a'**
+**Task: Equatorial Guinea and Dominican Republic have all of the vowels (a e i o u) in the name. They don't count because they have more than one word in the name. Find the country that has all the vowels and no spaces in its name. - You can use the phrase name NOT LIKE '%a%' to exclude characters from your results. - The query shown misses countries like Bahamas and Belarus because they contain at least one 'a'.**
 
 ```sql
 SELECT name
