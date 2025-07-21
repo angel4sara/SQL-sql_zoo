@@ -49,7 +49,7 @@ AND yr >= 2000;
 ```
 
 ###  Question 5: Literature in the 1980's
-**Task: Show all details (yr, subject, winner) of the literature prize winners for 1980 to 1989 inclusive..**
+**Task: Show all details (yr, subject, winner) of the literature prize winners for 1980 to 1989 inclusive.**
 
 ```sql
 SELECT yr, subject, winner
@@ -64,7 +64,7 @@ yr BETWEEN 1980 AND 1989;
 Theodore Roosevelt
 Thomas Woodrow Wilson
 Jimmy Carter
-Barack Obama**
+Barack Obama.**
 
 ```sql
 SELECT *
