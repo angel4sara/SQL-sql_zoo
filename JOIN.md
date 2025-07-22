@@ -97,7 +97,6 @@ JOIN game ON goal.matchid = game.id
 WHERE (game.team1 = 'GER' OR game.team2 = 'GER')
  AND goal.teamid != 'GER';
 ```
-## Nobel
 
 ###  Question 9: 
 **Task: Show teamname and the total number of goals scored.**
