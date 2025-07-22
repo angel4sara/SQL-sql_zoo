@@ -107,7 +107,6 @@ FROM ttmd
     JOIN team ON ( ttmd.team= team.id)
 WHERE color = 'gold' AND games = 2004;
 ```
-## Nobel
 
 ###  Question 9: 
 **Task: Show the name of each medal winner country 'FRA'.**
