@@ -61,8 +61,7 @@ population < (SELECT population
 ```
 
 ###  Question 5: Percentages of Germany
-**Task: Germany (population roughly 80 million) has the largest population of the countries in Europe. Austria (population 8.5 million) has 11% of the population of Germany. Show the name and the population of each country in Europe. Show the population as a percentage of the population of Germany.
-The format should be Name, Percentage for example:.**
+**Task: Germany (population roughly 80 million) has the largest population of the countries in Europe. Austria (population 8.5 million) has 11% of the population of Germany. Show the name and the population of each country in Europe. Show the population as a percentage of the population of Germany.**
 
 ```sql
 SELECT name, CONCAT(CAST(ROUND(population/
