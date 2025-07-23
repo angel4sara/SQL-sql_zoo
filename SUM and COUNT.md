@@ -92,7 +92,7 @@ FROM nobel;
 ```
 
 ###  Question 10:
-**Task: List each subject - just once**
+**Task: List each subject - just once.**
 
 ```sql
 SELECT DISTINCT(subject)
